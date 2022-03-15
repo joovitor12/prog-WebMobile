@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.profile img{
+  width: 200px;
+}
