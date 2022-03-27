@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #8BDCDA;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #F5A292;
+}
+
+input:focus {
+    outline: 0;
+}
+
+button {
+    border: 0.5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #C694DB;
+    cursor: pointer;
+}
+
+input {
+    background-color: #fffff0;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
